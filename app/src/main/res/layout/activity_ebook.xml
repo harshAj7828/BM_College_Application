@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ebook.EBook">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_50"
+        android:id="@+id/search"
+        android:hint="Search"
+        android:drawableStart="@drawable/ic_search"
+        android:layout_marginTop="@dimen/dim_10"
+        android:padding="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:drawablePadding="6dp"
+        android:visibility="gone"
+        android:background="@drawable/search_background"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ebookRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="762dp"
+        android:layout_below="@+id/search"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="0dp" />
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/simmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:id="@+id/shimmer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+            <include layout="@layout/simmer_ebook"/>
+
+        </LinearLayout>
+
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+</RelativeLayout>

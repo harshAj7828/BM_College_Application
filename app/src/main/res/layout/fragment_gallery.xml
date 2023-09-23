@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dim_12"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_280"
+            android:layout_marginVertical="@dimen/dim_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="@dimen/dim_181"
+                    android:layout_height="@dimen/dim_35"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dim_15"
+                    android:text="@string/convocation"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dim_16" />
+                
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim_1"
+                    android:layout_marginVertical="@dimen/dim_4"
+                    android:background="@color/black"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/convRecycle"/>
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_250"
+            android:layout_marginVertical="@dimen/dim_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="@dimen/dim_181"
+                    android:layout_height="@dimen/dim_35"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dim_15"
+                    android:text="@string/independacne_day"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dim_16" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim_1"
+                    android:layout_marginVertical="@dimen/dim_4"
+                    android:background="@color/black"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/independanceRecycle"/>
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_250"
+            android:layout_marginVertical="@dimen/dim_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="@dimen/dim_181"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dim_14"
+                    android:text="@string/other_event"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="@dimen/dim_16" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dim_1"
+                    android:layout_marginVertical="@dimen/dim_4"
+                    android:background="@color/black"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/otherRecycle"/>
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

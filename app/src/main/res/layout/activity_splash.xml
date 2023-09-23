@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkColor"
+    tools:context=".SplashActivity">
+
+
+    <ImageView
+        android:layout_width="@dimen/dim_130"
+        android:layout_height="@dimen/dim_130"
+        android:layout_marginTop="@dimen/dim_210"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_bm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_10"
+        android:text="@string/bm_college_of_technology"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:padding="@dimen/dim_12"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/educating_for_leadership"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/dim_10"
+        android:textSize="@dimen/dim_18"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

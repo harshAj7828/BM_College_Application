@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">BM College</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="cs">The Department of Computer Science was established in the year 2007. The department
+        offers the degrees Bachelor of Technology (B.Tech) and Master of Technology (M.Tech). The Department
+        of Computer Science offers instruction and performs research in the essential areas of computer science
+        including software, Web and Internet computing, networking, hardware systems, operating systems,
+        compilers, parallel and distributed computing, theory of computing, and computer graphics. The Department
+        has always had close ties to mathematics and engineering. Computer science is dedicated to invention of
+        new technologies in the broad telecommunication and networking areas.</string>
+
+    <string name="mission">To develop BM Group of colleges as a centre of excellence,
+        imparting quality education, generating competent, skilled and humane power to face
+        the scientific, technological, managerial and social challenges in the fast evolving
+        global scenario, with high degree of credibility, intrigity, ethical standards and social
+        concern.
+
+Our mission is to keep our students inspired to follow their ambitions and chase their dreams fearlessly,
+        to make them responsible future citizens and to build an atmosphere of kind and creative learning to
+
+        empower the newness of the young mind because this is what keeps them restless to chase their dreams.</string>
+    <string name="vision">To develop BM Group of colleges as a centre of excellence, imparting quality education,
+        generating competent, skilled and humane power to face the scientific, technological, managerial and
+        social challenges in the fast evolving global scenario, with high degree of credibility, intrigity,
+        ethical standards and social concern.
+
+Our vision is to create a class of future leaders who believe in choosing life rather than settling for anything
+        less, who know the difference between what they are getting and what they actually deserve. Also, to
+        imbibe in our students that all our dreams come true, if we have the courage to pursue them.</string>
+
+
+    <string name="about">Welcome to the BM Group of Colleges, known and acclaimed for its intense passion
+        and zeal in the creation and dissemination of knowledge for the needs of an emerging India, we have
+        used technology at its optimum to contribute our bit towards creating an erudite generation for now,
+        and for the future. Our state-of-the-art campuses bear testimony to our unwavering commitment towards
+        the student community. Empowered students create an empowered nation. By establishing benchmarks in
+        academic excellence and holistic grooming of students , to meet the career challenges in an increasingly
+        globalized economic conditions – the BM Group of colleges has earned a goodwill by delivering the promised
+        performances and by adopting best practices and system.  The BM Group of colleges is committed to
+        changing the frontiers of possibilities for all who are keen on learning, are driven by an entrepreneurial
+        zeal to innovate, have the empathy to use learning to help others and have the wisdom to see the limitless
+        potential of technology. The BM Group of colleges has committed itself to this empowerment through its highly
+        educated, skilled and long-standing team of acclaimed professionals. Welcome to BMGI once again.
+
+BMGI are ISO 9001:2008 Certified colleges and stand for imparting quality education. BMGI consists of five
+        colleges-BM College of technology, BM College of pharmaceutical Education and Research, BM College of
+        Management and research and Shri Behrulal Pharmacy Institute and BMIPS. The Colleges are approved by
+        AICTE (All India Council of technical education, recognized by DTE (Department of Technical Education
+        Madhya Pradesh) and affiliated to RGPV, Bhopal and DAVV Indore. Pharmacy College is approved by PCI.</string>
+
+
+    <string name="college"><u>W</u>elcome to the <b>BM Group of Colleges,</b> known and acclaimed for its intense
+         passion and zeal in the creation and dissemination of knowledge for the needs of an emerging India,
+         we have used technology at its optimum to contribute our bit towards creating an erudite generation for
+         now, and for the future. Our state-of-the-art campuses bear testimony to our unwavering commitment
+         towards the student community. Empowered students create an empowered nation. By establishing benchmarks
+         in academic excellence and holistic grooming of students , to meet the career challenges in an
+         increasingly globalized economic conditions – the BM Group of colleges has earned a goodwill by
+         delivering the promised performances and by adopting best practices and system.
+         The BM Group of colleges is committed to changing the frontiers of possibilities for all who are keen
+         on learning, are driven by an entrepreneurial zeal to innovate, have the empathy to use learning to help
+         others and have the wisdom to see the limitless potential of technology. The BM Group of colleges has
+         committed itself to this empowerment through its highly educated, skilled and long-standing team of
+         acclaimed professionals. Welcome to BMGI once again.
+
+BMGI are ISO 9001:2008 Certified colleges and stand for imparting quality education.
+         BMGI consists of five colleges-BM College of technology, BM College of pharmaceutical Education
+         Research, BM College of Management and research and Shri Behrulal Pharmacy Institute and BMIPS.
+         The Colleges are approved by AICTE (All India Council of technical education, recognized by DTE
+         (Department of Technical Education Madhya Pradesh) and affiliated to RGPV, Bhopal and DAVV Indore.
+         Pharmacy College is approved by PCI.</string>
+    <string name="convocation">Convocation</string>
+    <string name="independacne_day">Independence day</string>
+    <string name="other_event">Other Event</string>
+    <string name="department">Department</string>
+    <string name="computer_science">Computer Science</string>
+    <string name="information_technology">Information Technology</string>
+    <string name="mechnical_enginering">Mechnical Enginering</string>
+    <string name="_91_9926055906">+91-9926055906</string>
+    <string name="address">BM Group of Institutions,\n
+                           Gram Gokanya, Near Chokhi Dhani,\n
+                           Khandwa Road, Indore, \n
+                           Madhya Pradesh-452020</string>
+    <string name="email"> info@bmcollege.ac.in</string>
+    <string name="_0731_2572131">0731-2572131</string>
+    <string name="bm_college_of_technology">BM College Of Technology</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="forget">Forget</string>
+    <string name="already_registered">Already Registered ?</string>
+    <string name="login_here">Login here</string>
+    <string name="computer_science1">Computer Science</string>
+    <string name="branch">BRANCH</string>
+    <string name="_12_08_2022">12/08/2022</string>
+    <string name="_12_12">12:12</string>
+    <string name="educating_for_leadership">Educating For Leadership</string>
+    <string name="bm_college"><b><u>BM COLLEGE</u></b></string>
+<!--    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">"AIzaSyCt-j2MtqpkMt6LtxIyjI06Mr0nQPlD6-A"</string>-->
+
+<string name="api_key">AIzaSyCt-j2MtqpkMt6LtxIyjI06Mr0nQPlD6-A</string>
+    <string-array name="theme">
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="bm_group_of_institute"><u>BM Group Of Institute</u></string>
+    <string name="contect_us">CONTECT US</string>
+</resources>

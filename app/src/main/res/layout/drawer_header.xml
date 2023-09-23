@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dim_176"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_marginTop="@dimen/dim_54"
+    android:padding="@dimen/dim_14"
+    android:background="@color/grey"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/dim_64"
+        android:layout_height="@dimen/dim_64"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_bm"
+        android:contentDescription="Header Image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="BM College of Technology"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text=" info@bmcollege.ac.in"
+        android:textStyle="bold"
+        android:gravity="bottom"
+        android:textSize="14sp"
+        />
+
+
+</LinearLayout>

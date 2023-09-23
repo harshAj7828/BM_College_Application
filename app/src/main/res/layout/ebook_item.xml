@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/dim_10"
+    app:cardCornerRadius="@dimen/dim_10"
+    app:cardBackgroundColor="@color/grey"
+    android:layout_margin="@dimen/dim_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/dim_12">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pdf1"/>
+
+        <TextView
+            android:id="@+id/ebook_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PDF Title"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:layout_marginStart="@dimen/dim_15"
+            android:textColor="@color/white"/>
+        <ImageView
+            android:id="@+id/ebook_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_download"
+            android:layout_marginStart="-34dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
